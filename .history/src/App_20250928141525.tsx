@@ -1,0 +1,18 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+
+
+function App() {
+  return (
+    <>
+      <h1 className=" text-gray-200">
+        Hello world!
+      </h1>
+      <p className="text-blue-200">Hello world!</p>
+      <p className="text-blue-600/100">The quick brown fox...</p>
+    </>
+  )
+}
+
+export default App
